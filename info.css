@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+  padding-left: 4rem;
+  padding-top: 3rem;
+  padding-right: 4rem;
+  padding-bottom: 5rem;
+  font-size: 62.5%; /*1 rem = 10 px*/
+  font-family: Poppins;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.logo {
+  height: 3rem;
+  margin-bottom: 7rem;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.buttons {
+  display: flex;
+  align-items: baseline;
+  margin-top: 1.4rem;
+}
+.trans {
+  background-color: transparent;
+  color: #6c63ff;
+  margin-left: 2rem;
+  outline: none;
+  border: none;
+  font-size: 1.25rem;
+}
+.trans:focus {
+  color: #554df5;
+  font-size: 1.3rem;
+}
+.lbl {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  margin: 3rem;
+  text-align: center;
+  color: #6c63ff;
+  font-weight: 500;
+}
+
+.paragraph {
+  margin-left: 11rem;
+  margin-right: 16rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: 100;
+  letter-spacing: 1.3px;
+  line-height: 3rem;
+  color: #3f3d56;
+}
+.sub {
+  margin-bottom: 3rem;
+  font-weight: 400;
+  font-size: 1.7;
+  color: #6c63ff;
+}
+.subsub {
+  margin-bottom: 2rem;
+  font-weight: 400;
+  font-size: 1.5;
+}
+.bold {
+  font-weight: 200;
+}
+.dot {
+  color: #6c63ff;
+  font-size: 2rem;
+}
+.img {
+  margin-left: 18rem;
+}
+.link {
+  color: #6c63ff;
+}
+.referencias {
+  font-size: 1rem;
+  line-height: 0.1px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: -4rem;
+  margin-bottom: -5rem;
+  margin-right: -4rem;
+  align-self: flex-end;
+  padding: 2.3rem;
+  margin-top: 13rem;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.8rem;
+  font-weight: 400;
+  color: white;
+  background-color: #3f3d56;
+}
+.name {
+  font-weight: 200;
+  color: white;
+  margin-bottom: 0;
+  padding: 0;
+}

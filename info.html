@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Información</title>
+    <link rel="stylesheet" href="info.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <section class="top">
+        <a href="index.html"
+          ><img src="assets/Grafos.png" alt="Logo" class="logo"
+        /></a>
+        <div class="buttons">
+          <a href="ejemplo.html"><button class="btn trans">Ejemplos</button></a>
+          <a href="destacados.html"
+            ><button class="btn trans">Destacados</button></a
+          >
+        </div>
+      </section>
+      <section class="center">
+        <h1 class="lbl">Sobre Grafos y Redes</h1>
+        <p class="paragraph">
+          <span class="sub">¿Qué es un grafo?</span> <br />
+          <br />
+          Los grafos son estructuras gráficas que se conforman de nodos
+          conectados entre sí. Se pueden describir como mapas mentales que nos
+          ayudan a resolver varios tipos de problemas. Los grafos están
+          conformados por:<br />
+          <span class="dot">•</span> <span class="bold">Nodos.</span> Son los
+          puntos del grafo. <br />
+          <span class="dot">•</span> <span class="bold">Aristas.</span> Son las
+          conexiones entre los nodos. <br />
+          <span class="dot">•</span>
+          <span class="bold">Aristas paralelas o múltiples.</span> Así se le
+          llama a un grafo en el cual dos o mas aristas unen dos nodos. <br />
+          <span class="dot">•</span> <span class="bold">Lazo.</span> Éste forma
+          un bucle y pasa cuando una arista conecta a un mismo nodo<br />
+          <br />
+          <img class="img" src="assets/GrafoEj.png" /> <br />
+          <br />
+          <span class="sub">Conceptos de Grafos</span> <br />
+          <br />
+          <span class="subsub">Nomenclatura</span> <br />
+          <span class="bold">¿Grafos o Redes?</span> Usualmente se le llama
+          <span class="bold">red</span> cuando es un problema o sistema real,
+          mientras que el <span class="bold">grafo</span> es la representación
+          matemática de una red. <br />
+          Otras formas de llamar a los Nodos, Aristas o Lazos es
+          <span class="bold">vértices, arcos o enlace, y bucle</span>
+          respectivamente. <br /><br />
+          <span class="subsub">Caminos</span> <br />
+          Un camino es una sucesión de aristas o arcos adyacentes. Cada arista y
+          lazo en un camino va a contar como 1. Vamos a decir que un camino es
+          <span class="bold">simple</span> si no se repite ninguna arista en el
+          camino, por consecuente un camino será
+          <span class="bold">complejo</span> si utiliza al menos dos veces una
+          misma arista, y por último un camino es
+          <span class="bold">elemental</span> cuando no pasa dos veces por
+          ningún nodo en el grafo.<br /><br />
+          <span class="subsub">Ciclo</span> <br />
+          Es una cadena finita cuyos vértices inicial y final coinciden.<br /><br />
+          <span class="subsub">Conexo</span> <br />
+          Es aquel grafo tal que, para todas las parejas de vértices
+          cualesquiera, están unidos por una cadena.<br /><br />
+          <span class="sub">Árboles</span> <br /><br />
+          Un árbol es todo grafo finito, conexo y sin ciclos.<br />
+          <span class="dot">•</span> El vértice 0 representa la raíz del
+          árbol.<br />
+          <span class="dot">•</span> Los nodos finales reciben el nombre de
+          <span class="bold">hojas.</span> <br />
+          <span class="dot">•</span> Los demás nodos,
+          <span class="bold">nodos de ramificación.</span>
+          <br />
+          <span class="dot">•</span> Si un árbol tiene n nodos, tendrá n−1
+          aristas. <br />
+          <span class="dot">•</span> Excluida la raíz, los demás vértices forman
+          subconjuntos disjuntos, cada uno de ellos árbol. <br />
+          <span class="dot">•</span> Todo par de vértices están unidos por una
+          única cadena.<br />
+          <br />
+          <img class="img" src="assets/ArbolEj.png" /><br /><br /><br />
+
+          <span class="sub">Recorriendo árboles</span> <br /><br />
+          Hay tres formas de recorrer árboles<br />
+          <span class="dot">•</span> <span class="bold">Pre-orden:</span> <br />
+          En éste recorrido primero se visita el nodo raiz, y luego va visitando
+          nodo por nodo de izquierda a derecha. Es decir, primero visita el sub
+          árbol izquierdo y luego se va moviendo a la izquierda.<br />
+          <span class="dot">•</span> <span class="bold">Post-orden:</span>
+          <br />
+          Éste recorrido es el opuesto del pre-orden. Aqui empezamos por los
+          hijos del sub árbol que se encuentre mas a la izquierda, los hijos de
+          este se van a contar de izquierda a derecha y de arriba hacia abajo,
+          cuando ya se hayan contado todos los hijos, procedemos con la raiz
+          <span class="bold">del sub árbol</span>. Luego pasamos a la derecha
+          del nodo raíz y hacemos lo mismo. Lo último que se cuenta es la raiz
+          del árbol.<br />
+          <span class="dot">•</span> <span class="bold">In-orden:</span> <br />
+          En éste recorrido primero va a ir lo mas a la izquierda posible,
+          partiendo del nodo raiz, cuando ya no se pueda ir mas a la izquierda
+          éste va a empezar a subir hasta encontrar una sub division a la
+          derecha, en caso de encontrarse un nodo a la izquierda de un sub arbol
+          se va a desviar.<br /><br />
+          <span class="subsub">Conoce más!</span> <br />
+          Para conocer mas de estos recorridos, visita los
+          <a href="ejemplo.html" class="link">ejemplos interactivos</a>
+          <br /><br />
+
+          <span class="sub">Referencias</span> <br /><br />
+          <span class="referencias">
+            J. Rodríguez-Aragón, (2011) Teoría de Redes o grafos (pp. 7 & 19)<br /><br />
+
+            K. Ramírez (s.f) Teoría de Grafos y Árboles. Recuperado de:<br />
+            <a
+              href="http://www.kramirez.net/Discretas/Material/Presentaciones/Grafos.pdf"
+              class="link"
+              >http://www.kramirez.net/Discretas/Material/Presentaciones/Grafos.pdf<br /></a
+            ><br />
+
+            O. Cordón (s.f) Redes y sistemas complejos. Recuperado de:<br />
+            <a
+              href="https://sci2s.ugr.es/sites/default/files/files/Teaching/GraduatesCourses/RedesSistemasCompejos/Tema02-AspectosBasicosdelasRedes-13-14.pdf "
+              class="link"
+              >https://sci2s.ugr.es/sites/default/files/files/Teaching/GraduatesCourses<br />/RedesSistemasCompejos/Tema02-AspectosBasicosdelasRedes-13-14.pdf<br /></a
+            ><br />
+
+            R. Familia (s.f) Teoría de Grafos. Recuperado de:<br />
+            <a
+              href="https://campusvirtual.unibe.edu.do/bbcswebdav/pid-122487-dt-content-rid-352591_1/courses/TI2215-771672-2019-3/Algoritmos7_1.pdf"
+              class="link"
+              >https://campusvirtual.unibe.edu.do/bbcswebdav/pid-122487-dt-content-rid-352591_1/courses/TI2215-771672-2019-3/Algoritmos7_1.pdf<br /></a
+            ><br />
+          </span>
+        </p>
+      </section>
+      <div class="footer">
+        <label
+          >Proyecto Final - Análisis y diseño de Algoritmos<br />
+          Profesora Rina Familia <br />
+          • <br />
+          <label class="name">Adriana Mota 18-0413</label><br />
+          <label class="name">Cristopher Ortiz 18-0211</label>
+        </label>
+      </div>
+    </main>
+  </body>
+</html>

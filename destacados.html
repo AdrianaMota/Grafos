@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Destacados</title>
+    <link rel="stylesheet" href="destacados.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <section class="top">
+        <a href="index.html"
+          ><img src="assets/Grafos.png" alt="Logo" class="logo"
+        /></a>
+        <div class="buttons">
+          <a href="info.html"><button class="btn trans">Información</button></a>
+          <a href="ejemplo.html"><button class="btn trans">Ejemplos</button></a>
+        </div>
+      </section>
+      <section class="center">
+        <h2 class="lbl">Algoritmos mas Destacados</h2>
+        <br /><br />
+        <p class="paragraph">
+          <span class="sub">Problema de los puentes de Königsberg</span
+          ><br /><br />
+          Éste fue el problema que introdujo a los Grafos por primera vez. Todos
+          tenían una pregunta, ¿Se pueden cruzar los 7 puentes de Königsberg sin
+          reptetir ningún puenten?<br /><br />
+          <img src="assets/IPuentes.png" class="img im" /><br /><br />
+          Leonhard Euler se decidió unir a ésta multitud, decidió representar
+          cada lugar dónde hay tierra con puntos y los puentes con lineas.
+          Cuándo acabó de unir todo, formó lo que fue el primer grafo.<br /><br />
+          <img src="assets/Puentes.png" class="img" /><br /><br />
+          Con ésto dedujo dos cosas: <br />
+          <span class="dot">•</span> Si el grafo tiene más de dos nodos de grado
+          impar, no existe dicho camino.<br />
+          <span class="dot">•</span> Si el grafo es conexo y no tiene más de dos
+          nodos de grado impar, al menos hay un camino.<br /><br />
+          Aqui nació la <span class="bold">teoría de redes;</span> La existencia
+          del camino es una propiedad intrínseca del grafo. Las redes tienen
+          ciertas propiedades ocultas en su estructura que limitan o mejoran su
+          comportamiento<br /><br />
+          <span class="sub">Algoritmo de Solin</span><br /><br />
+          1. Construir la matriz de incidencia.<br />
+          2. Seleccionar el mínimo/máximo elemento de la matriz y marcarlo. Si
+          hay varios se escoge uno al azar.<br />
+          3. Eliminamos la columna del elemento marcado y seleccionamos la fila
+          correspondiente a la columna eliminada.<br />
+          4. De entre los elementos de las filas seleccionadas, que no hayan
+          sido eliminados, tomamos aquél mínimo/máximo y repetimos el proceso
+          del paso anterior hasta que no se puedan seleccionar más valores.<br /><br />
+          <span class="sub">Algoritmo de Kruskal</span><br /><br />
+          1. Seleccionamos el arco de valor mínimo/máximo.<br />
+          2. Seleccionamos un arco, de entre los que no estén seleccionados, que
+          tenga un extremo en común con éstos y de forma que no se genere un
+          ciclo, de todos los posibles arcos elegimos el mínimo/máximo.<br />
+          3. Repetir el paso anterior hasta haber conectado todos los nodos.<br /><br /><br />
+          <span class="sub">Referencias</span><br />
+          <span class="referencias">
+            J. Rodríguez-Aragón, (2011) Teoría de Redes o grafos (pp. 7 & 19)<br />
+
+            O. Cordón (s.f) Redes y sistemas complejos. Recuperado de:<br />
+            <a
+              href="https://sci2s.ugr.es/sites/default/files/files/Teaching/GraduatesCourses/RedesSistemasCompejos/Tema02-AspectosBasicosdelasRedes-13-14.pdf "
+              class="link"
+              >https://sci2s.ugr.es/sites/default/files/files/Teaching/GraduatesCourses<br />/RedesSistemasCompejos/Tema02-AspectosBasicosdelasRedes-13-14.pdf<br
+            /></a>
+
+            G. Michon (s.f) Graph Theory [imagen]. Recuperado de:<br />
+            <a href="http://www.numericana.com/answer/graphs.htm" class="link"
+              >http://www.numericana.com/answer/graphs.htm<br /></a
+            ><br />
+          </span>
+        </p>
+      </section>
+      <div class="footer">
+        <label
+          >Proyecto Final - Análisis y diseño de Algoritmos<br />
+          Profesora Rina Familia <br />
+          • <br />
+          <label class="name">Adriana Mota 18-0413</label><br />
+          <label class="name">Cristopher Ortiz 18-0211</label>
+        </label>
+      </div>
+    </main>
+  </body>
+</html>
